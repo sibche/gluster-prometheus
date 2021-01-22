@@ -19,3 +19,5 @@ jobs:
         with:
           push: true
           tags: sibche/gluster-prometheus:latest
+          context: .
+          file: extras/debian.Dockerfile
